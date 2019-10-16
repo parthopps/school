@@ -1,0 +1,175 @@
+.nav-background{
+	
+	background-color:rgba(54,60,64,0.8);
+	padding-bottom:6px;
+	
+	
+}
+.btn-outline-success{
+	color:#363C40;
+	background-color:white;
+	
+}
+
+.navbar {
+	top:2;
+	/*------position:sticky;------*/
+	z-index:2;
+}
+.navbar {
+	
+	background-color:#992031!important;
+	margin-top:10px;
+	margin-right:250px;
+	
+	
+}
+
+/* Google Fonts Montserret and Poppins */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900');
+
+.navbar-nav li
+{
+	padding:0 10px; 
+}
+.navbar-nav li a
+{
+	float:right;
+	text-align:left;
+	color:#FFFFFF!important;
+	
+}
+#nav-bar ul li 
+{
+	color:white!important;
+}
+#nav-bar ul li a:hover
+{
+	color:white!important;
+}
+#nav-bar h1{
+	color:white;
+}
+.navbar-toggler{
+	background:#fff;
+}
+.navbar-brand{
+	padding-left:200px;
+}
+.nav-link{
+	color:white!important;
+	font-weight:600;
+	font-size:13px; 
+}
+.nav-item a:hover{
+	background-color:black!important;
+	opacity:0.5; 
+}
+
+.carousel-item{
+	height:84vh;
+	min-height:300px;
+	background:no-repeart center center scroll;
+	-webkit-background-size:cover;
+	background-size:cover;
+}
+
+
+/* Start social Icon*/
+.icons{
+	position:fixed;
+	top:10%;
+	right:0%;
+	width:200px;
+	display:flex;
+	flex-direction:column;
+	
+}
+.icons a{
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:10px;
+	font-size:22px;
+	font-family:'Oswald',sans-serif;
+	margin:2px;
+	text-align:left;
+	border-radius:50px 0px 0px 50px;
+	transform:translate(130px,0px);
+	transition:all 1s;
+	
+}
+.icons a:hover{
+	transform:translate(0px,0px);
+	color:white;
+}
+.icons a i{
+	margin-right:25px;
+	background-color:white;
+	height:40px;
+	width:40px;
+	color:black;
+	text-align:center;
+	line-height:40px;
+	border-radius:50%;
+	transition:all 0.5s;
+	
+}
+.icons a:hover i{
+	transform:rotate(360deg);
+}
+.icons a i.fa-facebook{
+	color:#2C80D3;
+}
+.icons a i.fa-youtube{
+	color:#fa0910;
+}
+.
+.icons a i.fa-twitter{
+	color:#53c5ff;
+}
+
+.facebook{
+	background-color:#2C80D3;
+	color:white;
+
+}
+.youtube{
+	background-color:#fa0910;
+	color:white;
+
+}
+.twitter{
+	background-color:#53c5ff;
+	color:white;
+
+}
+
+
+/*  End social Icon */
+
+
+.first-footer{
+	background-color:rgba(0,0,0,0.6);
+	
+}
+
+.first-footer1{
+	padding-left:10px;
+	
+}
+.second-footer{
+	background-color:rgba(0,0,0,0.7);
+	padding:10px;
+}
+
+.pps{
+	color:white;
+	font-size:13px;
+	
+	
+}
+.fa-circle{
+	color:white;
+	font-size:8px;
+	padding:5px;
+}
